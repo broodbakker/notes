@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ],
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "plugins/netlify-plugin-store-posts-for-search/index.js",
+    "plugins/netlify-plugin-store-posts-for-search/functions/index.js",
+    "pages/index.tsx",
+    "pages/index.tsx",
+    "component/richText.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
